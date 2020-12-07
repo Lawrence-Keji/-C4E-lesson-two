@@ -1,0 +1,322 @@
+		section{
+			display: flex;
+			font-family: "Segoe UI"
+		}
+		.LeftSideBar{
+			width: 20%;
+			height: 970px;
+			background: #5FCB70;
+			color: #fff;
+			text-align: center;
+			padding-left: 15px;
+			padding-right: 15px;
+			font-size: 14px;
+		}
+
+		.MainPage{
+			width: 80%;
+			height: 970px;
+			background: #eee;
+		}
+
+		.BlogPage{
+			width: 80%;
+			height: 700px;
+			background: #fff;
+			padding-left: 10%;
+			padding-right: 10%;
+		}
+
+		.header{
+			text-align: center;
+			margin-right: 20%;
+		}
+
+		.MainContent{
+			background: #fff;
+			padding-top: 30px;
+			align-items: center;
+			padding-right:15%;
+			width: 65%;
+			height: 800px;
+		}
+
+		button{
+			background: #5FCB70;
+			color: #fff;
+			border-radius: 3px;
+			height: 34px;
+			border: none;
+			border-color: grey; 
+			padding: 10px;
+			margin-bottom: 35px;
+		}
+		input{
+			height: 32px;
+			border-radius: 3px;
+			width: 300px;
+			border-width: 1px;
+			border-color: #d3d3d3; 
+			margin-bottom: 35px;
+		}
+
+		.contentul {
+			padding-left: 15%;
+			margin-bottom: 50px
+		}
+
+		.contentli{
+			display: flex;
+			align-items: flex-start;
+		}
+		.contentpara{
+			margin-top: 0;
+			font-size: 14px;
+			text-align: center;
+			text-align: justify;
+		}
+
+		.headerpara {
+			line-height: 20px;
+			padding-bottom: 5px;
+		}
+		.blogpara{
+			margin-top: 0;
+			font-size: 14px;
+			text-align: justify;
+		}
+		h3 {
+			margin-bottom: 15px;
+			line-height: 20px;
+		}
+		h1 {
+			margin-bottom: 15px;
+		}
+		.blogname{
+			text-decoration: none;
+			color: #fff;
+		}
+		.MainSpan{
+			padding-right: 5px;
+			padding-bottom: 5px;
+			padding-top: 5px;
+			color: grey;
+			font-size: 12px;
+		}
+
+		.ImgLabel{
+			color: grey;
+			font-size: 12px;
+			text-align: center;
+		}
+		.ImgLink{
+			color: grey;
+			font-size: 12px;
+		}
+
+		.MainImg{
+			width: 100px;
+			height: 100px;
+			padding-top: 20px;
+		}
+		.AboutImg{
+			width: 100%;	
+		}
+
+		.SideImg{
+			width: 15px;
+			height: 15px;
+			border-radius: 50%;
+			align-items: center;
+			background: #fff;
+			padding: 5px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			color: #5FCB70;
+			-webkit-filter: opacity(.5) drop-shadow(0 0 0 green);
+		}
+		.ProfileImg{
+			height: 150px;
+			width: 150px;
+			border-radius: 50%;
+			margin-top: 20px;
+			margin-bottom: 10px;
+		}
+		.icons{
+			height: 20px;
+			width: 20px;
+			margin-top: 5px;
+			margin-right: 5%;
+			margin-left: 0;
+		}
+
+		.MainAnchor{
+			color: #5FCB70;
+			text-decoration: none;
+		}
+		.IconAnchor{
+			color: #ffff;
+			text-decoration: none;
+			margin-right: 20%;
+		}
+		hr{
+			color: #d3d3d3;
+			border-color: #d3d3d3;
+		}
+		.ProfileLink{
+			color: #ffff;
+		}
+		.sidebutton{
+			background: #5FCB70;
+			color: #fff;
+			border-radius: 3px;
+			height: 32px;
+			border: none;
+			border-color: grey; 
+			padding: 10px;
+			margin-top: 35px;
+		}
+		.MobileHead{
+			display: none;
+		}
+				
+		@media (max-width: 500px){
+			section{
+				display: block;
+			}
+			.LeftSideBar{
+			width: 94%;
+			height: 50px;
+			background: #5FCB70;
+			color: #fff;
+			text-align: center;
+			padding-left: 15px;
+			padding-right: 15px;
+			font-size: 14px;
+			display: none;
+		}
+		.MainPage{
+			width: 100%;
+			height: 100%;
+			background: #eee;
+		}
+		.MainContent{
+			background: #fff;
+			padding-top: 5px;
+			align-items: center;
+			padding-right:5%;
+			width: 100%;
+			height: 100%;
+		}
+		.header{
+			text-align: center;
+			padding-top: 10px;
+			padding-left: 5px;
+			margin-right: 0%;
+		}
+		.headerpara {
+			line-height: 20px;
+			padding-bottom: 5px;
+			font-size: 14px;
+		}
+		.contentul {
+			padding-left: 0;
+			margin-bottom: 30px
+		}
+		.MainImg{
+			display: none;
+		}
+		button{
+			background: #5FCB70;
+			color: #fff;
+			border-radius: 3px;
+			height: 32px;
+			border: none;
+			border-color: grey; 
+			padding: 10px;
+			margin-bottom: 55px;
+			width: 92%;
+		}
+		input{
+			height: 32px;
+			border-radius: 3px;
+			width: 300px;
+			border-width: 1px;
+			border-color: #d3d3d3; 
+			margin-bottom: 5px;
+			width: 90%;
+		}
+		h1{
+			line-height: 20px;
+		}
+		h2{
+			padding-top: 10px;
+		}
+		h3 {
+			margin-bottom: 15px;
+			line-height: 20px;
+		}
+		.SideImg{
+			display: none;
+		}
+		.ProfileImg{
+			display: none;
+		}
+		.icons{
+			display: none;
+		}
+		.IconAnchor{
+			display: none;
+		}
+		hr{
+			display: none;
+		}
+		.ProfileLink{
+			display: none;
+		}
+		.sidebutton{
+			display: none;
+		}
+		.sidepara{
+			display: none;
+		}
+		.menu{
+			display: none;
+			width: 94%;
+			height: 50px;
+			background: #5FCB70;
+			color: #fff;
+			text-align: center;
+			padding-left: 15px;
+			padding-right: 15px;
+			font-size: 14px;
+		}
+		.MobileHead{
+			display: flex;
+			direction: ltr;
+			width: 100%;
+			height: 60px;
+			background: #5FCB70;
+		}
+		.MenuBtn{
+			height: 50px;
+			width: 50px;
+			border-image: #fff;
+			padding-left: 10px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			margin-top: 0;
+			background-image: none;
+			color: red;
+		}
+		.MenuH2{
+			color: #fff;
+			margin-left: 10%;
+			padding-left: 15px;
+			padding-right: 15px;
+			font-size: 25px;
+			padding-top: 10px;
+			margin-top: 0;
+			text-decoration: none;
+		}
+		}		
